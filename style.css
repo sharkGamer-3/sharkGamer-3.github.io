@@ -21,4 +21,10 @@ body {
     border: 2px solid #0F0;
     border-radius: 8px;
     min-height: 100px;
+    cursor: pointer;
+}
+.grid-box:hover {
+    background: #080;
+    color: #000;
+    transition: background 0.3s, color 0.3s;
 }
