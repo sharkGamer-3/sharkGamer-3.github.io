@@ -26,6 +26,7 @@ body {
 .sidebar-item {
     margin-bottom: 15px;
     border-radius: 8px;
+    padding: 10px;
     border: 2px solid #0F0;
 }
 
