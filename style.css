@@ -7,6 +7,27 @@ body {
     font-style: normal;
     text-align: center;
 }
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #000000;
+    border-right: 2px solid #0F0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar-item {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 2px solid #0F0;
+}
 
 .grid-container {
     display: grid;
