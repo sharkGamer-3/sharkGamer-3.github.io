@@ -44,12 +44,14 @@ body {
     border-radius: 8px;
     min-height: 100px;
     cursor: pointer;
-    transition: background 0.3s, color 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.grid-box:hover {
+.button {
+    transition: background 0.3s, color 0.3s;
+}
+.button:hover {
     background: #080;
     color: #000;
 }
