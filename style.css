@@ -50,6 +50,7 @@ body {
 .button {
     transition: background 0.3s, color 0.3s;
     cursor: pointer;
+    text-decoration: underline;
 }
 .button:hover {
     background: #080;
