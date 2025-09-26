@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>EaglercraftX 1.8</title>
+</head>
+<body>
+  <div id="game_frame" style="width:100%; height:100vh;"></div>
+
+  <!-- Game code -->
+  <script src="eaglercraft.js"></script>
+
+  <script>
+    // Game options
+    window.eaglercraftXOpts = {
+      container: "game_frame",
+      worldsDB: "worlds",
+      relays: [
+        { addr: "wss://relay.deev.is/", comment: "relay 1" },
+        { addr: "wss://relay.lax1dude.net/", comment: "relay 2" },
+        { addr: "wss://relay.shhnowisnottheti.me/", comment: "relay 3" }
+      ]
+    };
+  </script>
+</body>
+</html>
